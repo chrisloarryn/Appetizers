@@ -28,6 +28,7 @@
 		49CEE4FF2AB956E2004462B5 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEE4FE2AB956E2004462B5 /* AppetizerListView.swift */; };
 		49CEE5012AB95704004462B5 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEE5002AB95704004462B5 /* AccountView.swift */; };
 		49CEE5032AB9571D004462B5 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEE5022AB9571D004462B5 /* OrderView.swift */; };
+		49D929822AC788FF000B930A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D929812AC788FF000B930A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		49CEE4FE2AB956E2004462B5 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		49CEE5002AB95704004462B5 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		49CEE5022AB9571D004462B5 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		49D929812AC788FF000B930A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				4918FD212ABE7F2000F5FB37 /* Appetizer.swift */,
+				49D929812AC788FF000B930A /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				49AC802D2ABEA1C400F47A47 /* AppetizerListViewModel.swift in Sources */,
 				4956CCE22AC0CB0E00BF7FB7 /* Color+Ext.swift in Sources */,
 				49CEE5012AB95704004462B5 /* AccountView.swift in Sources */,
+				49D929822AC788FF000B930A /* User.swift in Sources */,
 				491C4CA02AC1BFBE00E8A98F /* APButton.swift in Sources */,
 				4956CCE02AC0CA2700BF7FB7 /* LoadingView.swift in Sources */,
 				49CEE4F32AB95656004462B5 /* AppetizerTabView.swift in Sources */,
