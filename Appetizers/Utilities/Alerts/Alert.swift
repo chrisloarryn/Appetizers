@@ -58,5 +58,10 @@ struct AlertContext {
     static let invalidUserData: AlertItem = AlertItem(
         title: Text("Profile Error"),
         message: Text("There was an error saving or retrieving your profile."),
-        dismissButton: .default(Text("OK"))) 
+        dismissButton: .default(Text("OK")))
+    
+    static let genericError: AlertItem = AlertItem(
+        title: Text("Server Error"),
+        message: Text("There was an error."),
+        dismissButton: .default(Text("OK")))
 }
